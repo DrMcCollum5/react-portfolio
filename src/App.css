@@ -1,38 +1,172 @@
-.App {
+body{
+  height: 100%;
+} 
+
+.layout {
+  flex-grow: 1;
+}
+
+section {
+  padding: 30px 10px;
+}
+
+.header {
+  width: 100%;
+  background: #ee6e73;
+  color: #fff;
+}
+
+.header-content {
+  padding: 3px 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+.header-content a:link,
+.header-content a:visited,
+.header-content a:hover,
+.header-content a:active {
+  text-decoration: none;
+}
+
+.header-content h2 {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-content .menu-items {
+  display: flex;
+  text-transform: uppercase;
+  list-style: none;
+}
+
+.header-content .menu-items li {
+  margin: 0 1rem;
+}
+
+.header-content .menu-items li a:link,
+.header-content .menu-items li a:visited {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.header-content .menu-items li a:hover,
+.header-content .menu-items li a:active {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  width: 300px;
+  height: auto;
+}
+
+.about-me {
+  margin-top: 1rem;
+  letter-spacing: 1px;
+  width: 80%;
+  line-height: 190%;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin: auto;
+}
+
+.projects .project {
+  border: 1px solid #000;
+  padding: 10px;
+  margin: 1rem;
+  width: 30%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.projects .project .project-link {
+  background-image: linear-gradient(
+    to right,
+    #77a1d3 0%,
+    #79cbca 51%,
+    #77a1d3 100%
+  );
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.projects .project .project-link {
+  margin: 10px;
+  padding: 15px 20px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
   color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  letter-spacing: 2px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.projects .project .project-link:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.footer {
+  width: 100%;
+  background: #ee6e73;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  position: sticky;
+  top: 100vh;
+}
+
+.footer a {
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .projects {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .projects .project {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-content {
+    flex-direction: column;
+    padding-top: 1rem;
+    text-align: center;
+  }
+
+  .header-content .menu-items {
+    flex-direction: column;
+    margin: 1rem 0;
+  }
+
+  .header-content .menu-items li {
+    margin: 10px 0;
+  }
+
+  .projects {
+    width: 100%;
+  }
+
+  .projects .project {
+    width: 100%;
+  }
+
+  .about-me {
+    width: 100%;
+    padding: 1%;
   }
 }
