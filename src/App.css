@@ -12,7 +12,7 @@ section {
 
 .header {
   width: 100%;
-  background: #ee6e73;
+  background: #a5a58d;
   color: #fff;
 }
 
@@ -111,15 +111,15 @@ section {
 }
 
 .projects .project .project-link:hover {
-  background-position: right center; /* change the direction of the change here */
+  background-position: right center; /* change the direction of the links here */
   color: #fff;
   text-decoration: none;
 }
 
 .footer {
   width: 100%;
-  background: #ee6e73;
-  color: #fff;
+  background: #ddbea9;
+  color: rgb(7, 7, 7);
   padding: 10px;
   text-align: center;
   font-size: 20px;
@@ -128,7 +128,7 @@ section {
 }
 
 .footer a {
-  color: #fff;
+  color: rgb(7, 7, 7);
 }
 
 @media screen and (max-width: 1200px) {
