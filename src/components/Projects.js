@@ -11,22 +11,22 @@ const Projects = () => {
             E-Commerce
           </Card.Subtitle>
           <Card.Text>
-          First group project building our first full-stack application!
+          First group project building a full-stack application.
           A e-commerce site that has a database. 
           </Card.Text>
           <a
             href="https://cookies-for-coders-mary.herokuapp.com/"
-            className="project-link"
-          >
-            Project Link
+            className="project-link">
+          Project Link
           </a>
+          <a href="https://github.com/DrMcCollum5/Full_Stack_Store" className="project-link">GitHub</a>
         </Card.Body>
       </Card>
       <Card className="project">
         <Card.Body>
           <Card.Title>Day Planner</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
-            Scheduler
+           HTML5, CSS, JavaScript
           </Card.Subtitle>
           <Card.Text>
           This application utilizes JQuery to provide the user a
@@ -35,13 +35,14 @@ const Projects = () => {
           <a href="https://drmccollum5.github.io/Day-Planner/" className="project-link">
             Project Link
           </a>
+          <a href="https://github.com/DrMcCollum5/Day-Planner" className="project-link">GitHub</a>
         </Card.Body>
       </Card>
       <Card className="project">
         <Card.Body>
           <Card.Title>Code-Refactor</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
-            Card Subtitle
+           HTML5, CSS
           </Card.Subtitle>
           <Card.Text>
           Refactored the Horiseon website. Implemented semantic html elements, consolidated CSS, 
@@ -50,13 +51,14 @@ const Projects = () => {
           <a href="https://drmccollum5.github.io/Code-Refactor/" className="project-link">
             Project Link
           </a>
+          <a href="https://github.com/DrMcCollum5/Code-Refactor" className="project-link"> GitHub</a>
         </Card.Body>
       </Card>
       <Card className="project">
         <Card.Body>
           <Card.Title>GrandConnect</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
-            Card Subtitle
+            HTML5, CSS, JavaScript
           </Card.Subtitle>
           <Card.Text>
           Connect elementary school children and senior citizens in nursing homes to create 
@@ -65,10 +67,11 @@ const Projects = () => {
           <a href="https://caitlinw29.github.io/GrandConnect/" className="project-link">
             Project Link
           </a>
-          <a href="https://github.com/caitlinw29/GrandConnect" className="project-link">GitHub</a>
+          <a href="https://github.com/caitlinw29/GrandConnect" className="project-link">
+          GitHub</a>
         </Card.Body>
       </Card>
-      <Card className="project">
+      {/* <Card className="project">
         <Card.Body>
           <Card.Title>Fifth Project</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -82,7 +85,7 @@ const Projects = () => {
             Project Link
           </a>
         </Card.Body>
-      </Card>
+      </Card> */}
     </section>
   );
 };
