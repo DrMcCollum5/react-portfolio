@@ -39,32 +39,33 @@ const Projects = () => {
       </Card>
       <Card className="project">
         <Card.Body>
-          <Card.Title>Third Project</Card.Title>
+          <Card.Title>Code-Refactor</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
             Card Subtitle
           </Card.Subtitle>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          Refactored the Horiseon website. Implemented semantic html elements, consolidated CSS, 
+          fixed broken links. 
           </Card.Text>
-          <a href="#" className="project-link">
+          <a href="https://drmccollum5.github.io/Code-Refactor/" className="project-link">
             Project Link
           </a>
         </Card.Body>
       </Card>
       <Card className="project">
         <Card.Body>
-          <Card.Title>Fourth Project</Card.Title>
+          <Card.Title>GrandConnect</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
             Card Subtitle
           </Card.Subtitle>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          Connect elementary school children and senior citizens in nursing homes to create 
+          a community of empowerment and communication.
           </Card.Text>
-          <a href="#" className="project-link">
+          <a href="https://caitlinw29.github.io/GrandConnect/" className="project-link">
             Project Link
           </a>
+          <a href="https://github.com/caitlinw29/GrandConnect" className="project-link">GitHub</a>
         </Card.Body>
       </Card>
       <Card className="project">
