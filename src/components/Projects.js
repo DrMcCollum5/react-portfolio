@@ -8,11 +8,11 @@ const Projects = () => {
         <Card.Body>
           <Card.Title>FullStack Store</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
-            Card Subtitle
+            E-Commerce
           </Card.Subtitle>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          First group project building our first full-stack application!
+          A e-commerce site that has a database. 
           </Card.Text>
           <a
             href="https://cookies-for-coders-mary.herokuapp.com/"
@@ -24,15 +24,15 @@ const Projects = () => {
       </Card>
       <Card className="project">
         <Card.Body>
-          <Card.Title>Second Project</Card.Title>
+          <Card.Title>Day Planner</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
-            Card Subtitle
+            Scheduler
           </Card.Subtitle>
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+          This application utilizes JQuery to provide the user a
+          dynamic day-planner. The user can enter to-do tasks into hourly time blocks and save the to do's for later access.
           </Card.Text>
-          <a href="#" className="project-link">
+          <a href="https://drmccollum5.github.io/Day-Planner/" className="project-link">
             Project Link
           </a>
         </Card.Body>
