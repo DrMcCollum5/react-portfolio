@@ -12,7 +12,7 @@ section {
 
 .header {
   width: 100%;
-  background: #a5a58d;
+  background: #cb997e;
   color: #fff;
 }
 
@@ -32,7 +32,7 @@ section {
 }
 
 .header-content h2 {
-  color: #fff;
+  color: black;
   text-decoration: none;
 }
 
@@ -50,7 +50,8 @@ section {
 .header-content .menu-items li a:visited {
   text-decoration: none;
   letter-spacing: 1px;
-  color: #fff;
+  color: black;
+ 
 }
 
 .header-content .menu-items li a:hover,
@@ -118,7 +119,7 @@ section {
 
 .footer {
   width: 100%;
-  background: #ddbea9;
+  background: #cb997e;
   color: rgb(7, 7, 7);
   padding: 10px;
   text-align: center;
