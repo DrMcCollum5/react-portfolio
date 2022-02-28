@@ -43,7 +43,7 @@ const ContactForm = () => {
 
   return (
     <>
-      <h2>Contact Form</h2>
+      <h2>Contact</h2>
       {successMsg && <p className="successMsg">{successMsg}</p>}
       {errorMsg && <p className="errorMsg">{errorMsg}</p>}
       <Form
