@@ -1,17 +1,16 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <header className="header">
       <div className="header-content">
-        <Link to="/">
+        <a href="#about_me">
           <h2>A'Keia M.</h2>
-        </Link>
+        </a>
         <nav>
           <ul className="menu-items">
             <li>
-              <Link to="/portfolio">Portfolio</Link>
+              <a href="#projects">Portfolio</a>
             </li>
             <li>
               <a
@@ -22,17 +21,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://github.com/DrMcCollum5">
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                target="_blank"
-                href="https://www.linkedin.com/in/a-keia-m-10312541/"
-              >
-                LinkedIn
-              </a>
+              <a href="#contact_form">Contact Form</a>
             </li>
           </ul>
         </nav>

@@ -13,7 +13,6 @@ const AppRouter = () => {
         <div className="main-content">
           <Switch>
             <Route path="/" component={App} exact />
-            <Route path="/portfolio" component={Projects} />
           </Switch>
         </div>
       </div>

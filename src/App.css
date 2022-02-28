@@ -6,6 +6,23 @@ body {
   flex-grow: 1;
 }
 
+.successMsg,
+.errorMsg {
+  color: #30a530;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.errorMsg {
+  color: #ff0000;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 1rem 0 !important;
+}
+
 section {
   padding: 30px 10px;
 }
@@ -58,6 +75,22 @@ section {
   text-decoration: underline;
 }
 
+.image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-section .social-icons {
+  display: flex;
+}
+
+.image-section .social-icons > a {
+  margin: 10px 5px;
+  color: #000;
+}
+
 .profile-pic {
   width: 300px;
   height: 300px;
@@ -83,7 +116,7 @@ section {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 60%;
+  width: 80%;
   margin: auto;
 }
 
@@ -126,6 +159,7 @@ section {
 
 .footer {
   width: 100%;
+  margin-top: 2rem;
   background: #cb997e;
   color: rgb(7, 7, 7);
   padding: 10px;
@@ -142,6 +176,9 @@ section {
 }
 
 @media screen and (max-width: 1200px) {
+  h2 {
+    text-align: center;
+  }
   .projects {
     width: 100%;
   }
@@ -158,6 +195,10 @@ section {
   .projects .project {
     width: 50%;
   }
+}
+
+.contact-form {
+  margin-bottom: 3rem;
 }
 
 @media screen and (max-width: 600px) {

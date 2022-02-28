@@ -3,75 +3,156 @@ import { Button, Card } from "react-bootstrap";
 
 const Projects = () => {
   return (
-    <section className="projects">
-      <Card className="project">
-        <Card.Body>
-          <Card.Title>FullStack Store</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">
-            E-Commerce
-          </Card.Subtitle>
-          <Card.Text>
-          First group project building a full-stack application.
-          A e-commerce site that has a database. 
-          </Card.Text>
-          <a
-            href="https://cookies-for-coders-mary.herokuapp.com/"
-            className="project-link">
-          Project Link
-          </a>
-          <a href="https://github.com/DrMcCollum5/Full_Stack_Store" className="project-link">GitHub</a>
-        </Card.Body>
-      </Card>
-      <Card className="project">
-        <Card.Body>
-          <Card.Title>Day Planner</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">
-           HTML5, CSS, JavaScript
-          </Card.Subtitle>
-          <Card.Text>
-          This application utilizes JQuery to provide the user a
-          dynamic day-planner. The user can enter to-do tasks into hourly time blocks and save the to do's for later access.
-          </Card.Text>
-          <a href="https://drmccollum5.github.io/Day-Planner/" className="project-link">
-            Project Link
-          </a>
-          <a href="https://github.com/DrMcCollum5/Day-Planner" className="project-link">GitHub</a>
-        </Card.Body>
-      </Card>
-      <Card className="project">
-        <Card.Body>
-          <Card.Title>Code-Refactor</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">
-           HTML5, CSS
-          </Card.Subtitle>
-          <Card.Text>
-          Refactored the Horiseon website. Implemented semantic html elements, consolidated CSS, 
-          fixed broken links. 
-          </Card.Text>
-          <a href="https://drmccollum5.github.io/Code-Refactor/" className="project-link">
-            Project Link
-          </a>
-          <a href="https://github.com/DrMcCollum5/Code-Refactor" className="project-link"> GitHub</a>
-        </Card.Body>
-      </Card>
-      <Card className="project">
-        <Card.Body>
-          <Card.Title>GrandConnect</Card.Title>
-          <Card.Subtitle className="mb-2 text-muted">
-            HTML5, CSS, JavaScript
-          </Card.Subtitle>
-          <Card.Text>
-          Connect elementary school children and senior citizens in nursing homes to create 
-          a community of empowerment and communication.
-          </Card.Text>
-          <a href="https://caitlinw29.github.io/GrandConnect/" className="project-link">
-            Project Link
-          </a>
-          <a href="https://github.com/caitlinw29/GrandConnect" className="project-link">
-          GitHub</a>
-        </Card.Body>
-      </Card>
-      {/* <Card className="project">
+    <>
+      <h2>Portfolio</h2>
+      <section className="projects" id="projects">
+        <Card className="project">
+          <Card.Body>
+            <Card.Title>FullStack Store</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              E-Commerce
+            </Card.Subtitle>
+            <Card.Text>
+              First group project building a full-stack application. A
+              e-commerce site that has a database.
+            </Card.Text>
+            <a
+              href="https://cookies-for-coders-mary.herokuapp.com/"
+              className="project-link"
+            >
+              Project Link
+            </a>
+            <a
+              href="https://github.com/DrMcCollum5/Full_Stack_Store"
+              className="project-link"
+            >
+              GitHub
+            </a>
+          </Card.Body>
+        </Card>
+        <Card className="project">
+          <Card.Body>
+            <Card.Title>Day Planner</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              HTML5, CSS, JavaScript
+            </Card.Subtitle>
+            <Card.Text>
+              This application utilizes JQuery to provide the user a dynamic
+              day-planner. The user can enter to-do tasks into hourly time
+              blocks and save the to do's for later access.
+            </Card.Text>
+            <a
+              href="https://drmccollum5.github.io/Day-Planner/"
+              className="project-link"
+            >
+              Project Link
+            </a>
+            <a
+              href="https://github.com/DrMcCollum5/Day-Planner"
+              className="project-link"
+            >
+              GitHub
+            </a>
+          </Card.Body>
+        </Card>
+        <Card className="project">
+          <Card.Body>
+            <Card.Title>Code-Refactor</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              HTML5, CSS
+            </Card.Subtitle>
+            <Card.Text>
+              Refactored the Horiseon website. Implemented semantic html
+              elements, consolidated CSS, fixed broken links.
+            </Card.Text>
+            <a
+              href="https://drmccollum5.github.io/Code-Refactor/"
+              className="project-link"
+            >
+              Project Link
+            </a>
+            <a
+              href="https://github.com/DrMcCollum5/Code-Refactor"
+              className="project-link"
+            >
+              {" "}
+              GitHub
+            </a>
+          </Card.Body>
+        </Card>
+        <Card className="project">
+          <Card.Body>
+            <Card.Title>GrandConnect</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              HTML5, CSS, JavaScript
+            </Card.Subtitle>
+            <Card.Text>
+              Connect elementary school children and senior citizens in nursing
+              homes to create a community of empowerment and communication.
+            </Card.Text>
+            <a
+              href="https://caitlinw29.github.io/GrandConnect/"
+              className="project-link"
+            >
+              Project Link
+            </a>
+            <a
+              href="https://github.com/caitlinw29/GrandConnect"
+              className="project-link"
+            >
+              GitHub
+            </a>
+          </Card.Body>
+        </Card>
+        <Card className="project">
+          <Card.Body>
+            <Card.Title>GrandConnect</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              HTML5, CSS, JavaScript
+            </Card.Subtitle>
+            <Card.Text>
+              Connect elementary school children and senior citizens in nursing
+              homes to create a community of empowerment and communication.
+            </Card.Text>
+            <a
+              href="https://caitlinw29.github.io/GrandConnect/"
+              className="project-link"
+            >
+              Project Link
+            </a>
+            <a
+              href="https://github.com/caitlinw29/GrandConnect"
+              className="project-link"
+            >
+              GitHub
+            </a>
+          </Card.Body>
+        </Card>
+        <Card className="project">
+          <Card.Body>
+            <Card.Title>GrandConnect</Card.Title>
+            <Card.Subtitle className="mb-2 text-muted">
+              HTML5, CSS, JavaScript
+            </Card.Subtitle>
+            <Card.Text>
+              Connect elementary school children and senior citizens in nursing
+              homes to create a community of empowerment and communication.
+            </Card.Text>
+            <a
+              href="https://caitlinw29.github.io/GrandConnect/"
+              className="project-link"
+            >
+              Project Link
+            </a>
+            <a
+              href="https://github.com/caitlinw29/GrandConnect"
+              className="project-link"
+            >
+              GitHub
+            </a>
+          </Card.Body>
+        </Card>
+        {/* <Card className="project">
         <Card.Body>
           <Card.Title>Fifth Project</Card.Title>
           <Card.Subtitle className="mb-2 text-muted">
@@ -86,7 +167,8 @@ const Projects = () => {
           </a>
         </Card.Body>
       </Card> */}
-    </section>
+      </section>
+    </>
   );
 };
 
