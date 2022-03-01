@@ -21,7 +21,7 @@ const Header = () => {
               </a>
             </li>
             <li>
-              <a href="#contact_form">Contact Form</a>
+              <a href="#contact_form">Connect</a>
             </li>
           </ul>
         </nav>
